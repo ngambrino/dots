@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for i in zsh; do
+  cd $i && ./setup; cd - > /dev/null
+done

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ln -sfv "$PWD/zshenv" "$HOME/.zshenv"
+source "$HOME/.zshenv"
+
+mkdir -p "$ZDOTDIR" && ln -sfv "$PWD/zshrc" "$ZDOTDIR/.zshrc"
