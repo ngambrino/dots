@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mkdir -p "$XDG_CONFIG_HOME/git" && ln -sfv "$PWD/gitconfig" "$XDG_CONFIG_HOME/git/config"

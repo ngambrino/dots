@@ -1,5 +1,5 @@
 #!/bin/bash
 
-for i in zsh; do
+for i in zsh git; do
   cd $i && ./setup; cd - > /dev/null
 done
