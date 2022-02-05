@@ -1,5 +1,5 @@
 #!/bin/bash
 
-for i in zsh git; do
+for i in zsh git tmux; do
   cd $i && ./setup; cd - > /dev/null
 done

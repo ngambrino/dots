@@ -1,5 +1,6 @@
 brew 'git'
 brew 'antigen'
+brew 'tmux'
 brew 'node'
 
 cask 'docker'
