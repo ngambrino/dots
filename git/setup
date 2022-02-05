@@ -1,3 +1,4 @@
 #!/bin/bash
 
+source "$HOME/.zshenv"
 mkdir -p "$XDG_CONFIG_HOME/git" && ln -sfv "$PWD/config" "$XDG_CONFIG_HOME/git/config"
