@@ -1,6 +1,5 @@
 #!/bin/bash
 
-source "$HOME/.zshenv"
 git clone https://github.com/tmux-plugins/tpm "$XDG_DATA_HOME/tmux/plugins/tpm"
 mkdir -p "$XDG_CONFIG_HOME/tmux" && ln -svf "$PWD/tmux.conf" "$XDG_CONFIG_HOME/tmux/tmux.conf"
 $XDG_DATA_HOME/tmux/plugins/tpm/bin/install_plugins
