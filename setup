@@ -1,8 +1,8 @@
 #!/bin/bash
 
-ln -sfv "${PWD}/zsh/zshenv" "${HOME}/.zshenv" && . "${_}"
+ln -svf $PWD/zsh/zshenv $HOME/.zshenv && . $_
 
-DIRS="zsh git tmux"
+DIRS="zsh git"
 
 for i in $DIRS; do
   cd $i && ./setup; cd - > /dev/null

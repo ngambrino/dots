@@ -1,17 +1,1 @@
-# plugins
-
-source /usr/local/share/antigen/antigen.zsh
-
-antigen use oh-my-zsh
-
-antigen bundle git
-antigen bundle docker
-antigen bundle zsh-users/zsh-syntax-highlighting
-
-antigen apply
-
-
-# prompt
-
-autoload -U promptinit; promptinit
-prompt pure
+#!/bin/zsh
