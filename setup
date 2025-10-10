@@ -2,7 +2,7 @@
 
 ln -svf $PWD/zsh/zshenv $HOME/.zshenv && . $_
 
-DIRS="zsh git"
+DIRS="zsh git ghostty"
 
 for i in $DIRS; do
   cd $i && ./setup; cd - > /dev/null

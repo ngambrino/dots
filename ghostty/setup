@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mkdir -p $XDG_CONFIG_HOME/ghostty && ln -svf $PWD/config $XDG_CONFIG_HOME/ghostty/config

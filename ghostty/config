@@ -1,0 +1,9 @@
+confirm-close-surface = false
+window-height = 30
+window-width = 100
+window-padding-x = 4
+background-opacity = 0.85
+background-blur = true
+font-family = Menlo
+shell-integration-features = no-cursor
+cursor-style = block
