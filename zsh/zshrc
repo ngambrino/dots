@@ -15,6 +15,7 @@ setopt NO_CLOBBER             # Don't let > overwrite an existing file. Use >! i
 setopt INTERACTIVE_COMMENTS   # Allow comments in interactive shell.
 setopt AUTO_CD                # Auto cd with just a dir name.
 
+alias grep='grep --color=auto'
 alias ls='ls --color=auto'
 alias ll='ls -lh'
 alias la='ls -Alh'
