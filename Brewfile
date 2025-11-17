@@ -1,7 +1,7 @@
 brew 'git'
 
 cask '1password'
-cask 'docker'
+cask 'docker-desktop'
 cask 'firefox'
 cask 'ghostty'
 cask 'google-chrome'
