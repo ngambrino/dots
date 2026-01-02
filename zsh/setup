@@ -1,3 +1,5 @@
 #!/bin/bash
 
 mkdir -p $ZDOTDIR && ln -sfv $PWD/zshrc $ZDOTDIR/.zshrc
+
+touch $HOME/.hushlogin
