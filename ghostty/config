@@ -1,5 +1,7 @@
-theme = Oceanic Next
-confirm-close-surface = false
+# https://ghostty.org/docs/config/reference
+
+theme = Catppuccin Frappe
+macos-titlebar-proxy-icon = hidden
 window-height = 30
 window-width = 100
 window-padding-x = 4
